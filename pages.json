@@ -1,0 +1,92 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/repayCenter/index",
+			"style": {
+				"navigationBarTitleText": "代还中心"
+			}
+		},
+		{
+			"path": "pages/pointsMall/index",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path": "pages/repayRecord/index",
+			"style": {
+				"navigationBarTitleText": "代还记录"
+			}
+		},
+		{
+			"path": "pages/forum/index",
+			"style": {
+				"navigationBarTitleText": "论坛"
+			}
+		},
+		{
+			"path": "pages/personalCenter/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	  "custom": false,
+	  "color": "#999999",
+	  "selectedColor": "#007AFF",
+	  "backgroundColor": "#FFFFFF",
+	  "borderStyle": "black",
+	  "list": [
+	    {
+	      "pagePath": "pages/index/index",
+	      "text": "首页",
+	      "iconPath": "static/tabbar/home.png",
+	      "selectedIconPath": "static/tabbar/home-active.png"
+	    },
+	    {
+	      "pagePath": "pages/repayCenter/index",
+	      "text": "代还中心",
+	      "iconPath": "static/tabbar/repay.png",
+	      "selectedIconPath": "static/tabbar/repay-active.png"
+	    },
+	    {
+	      "pagePath": "pages/pointsMall/index",
+	      "text": "积分商城",
+	      "iconPath": "static/tabbar/mall.png",
+	      "selectedIconPath": "static/tabbar/mall-active.png"
+	    },
+	    {
+	      "pagePath": "pages/repayRecord/index",
+	      "text": "代还记录",
+	      "iconPath": "static/tabbar/record.png",
+	      "selectedIconPath": "static/tabbar/record-active.png"
+	    },
+	    {
+	      "pagePath": "pages/forum/index",
+	      "text": "论坛",
+	      "iconPath": "static/tabbar/forum.png",
+	      "selectedIconPath": "static/tabbar/forum-active.png"
+	    },
+	    {
+	      "pagePath": "pages/personalCenter/index",
+	      "text": "个人中心",
+	      "iconPath": "static/tabbar/personal.png",
+	      "selectedIconPath": "static/tabbar/personal-active.png"
+	    }
+	  ]
+	},
+	"uniIdRouter": {}
+}
